@@ -16,7 +16,7 @@ There are 12 `placement` options available. Use `arrowPointAtCenter` if you want
 ```jsx
 import { Popconfirm, message, Button } from 'antd';
 
-const text = 'Are you sure to delete this task?';
+const text = 'If disabled, this user cannot continue to access the store. Do you want to proceed?';
 
 function confirm() {
   message.info('Clicked on Yes.');
